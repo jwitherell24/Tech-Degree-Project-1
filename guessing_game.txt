@@ -1,0 +1,8 @@
+print welcome message
+set ran_number to random number
+get number from user
+if number != ran_number
+    print message asking user to try again
+    get number from user
+else
+    print congratulations message

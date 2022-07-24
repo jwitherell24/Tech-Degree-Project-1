@@ -3,6 +3,7 @@ import random
 
 def start_game():
     print("-------->   Hello! Welcome to the Number Guessing Game!   <--------")
+    rand_number = random.randrange(0,11)
     
     """Psuedo-code Hints
 
